@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url(./fonts/IBMPlexSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'IBM Plex Sans';
+}
+
 header {
     background: #17459c;
     padding-top: 38px;
@@ -27,4 +44,8 @@ form {
     padding-top: 100px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.nav__link {
+    color: #fff;
 }
