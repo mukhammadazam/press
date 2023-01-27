@@ -1,0 +1,30 @@
+header {
+    background: #17459c;
+    padding-top: 38px;
+    padding-bottom: 141px;
+}
+
+nav {
+    background: #17459c;
+}
+
+form {
+    padding-right: 103px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 79px;
+    max-width: 840px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
