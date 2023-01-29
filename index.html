@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="./imges/Pressa.svg" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,10 +29,10 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav__link" href="#">biz haqimizda  </a>
+                            <a class="nav-link " href="#">biz haqimizda  </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Savol va javoblar
                 </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -45,7 +45,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link border-info  " href="#">+ E’lon berish</button>
+                            <button class="nav-link co" href="#">+ E’lon berish</button>
                         </li>
                     </ul>
 
@@ -60,6 +60,52 @@
             </div>
         </div>
     </header>
+    <section class="m-auto-0">
+        <div class="btn-group ">
+            <button class="btn " type="date" id="defaultDropdown" data-bs-toggle="date" data-bs-auto-close="true" aria-expanded="false">
+              <input type="date" class="btn-group in">
+            </button>
+
+        </div>
+
+
+        <div class="container">
+            <div class="mx-auto">
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                      Clickable outside
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    </ul>
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                      Clickable inside
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    </ul>
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickable" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+                      Manual close
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
+                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 
